@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,SAAS;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,KAAK,EANG,OAAe;CAU1B;;AARD,AAKI,MALE,CAKF,MAAM,CAAC;EACH,UAAU,EATJ,OAAiB;CAU1B;;AAGL,AAAA,QAAQ,CAAC,MAAM,CAAC;EACZ,UAAU,EAdA,OAAiB;CAe9B",
+    "sources": [
+        "sassy.scss"
+    ],
+    "names": [],
+    "file": "sassy.css"
+}
