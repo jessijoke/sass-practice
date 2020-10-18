@@ -1,0 +1,18 @@
+header {
+    @include flexCenter();
+    background: lightblue;
+    height: 100vh;
+    color: $textColor;
+    button {
+        background: rgb(33, 104, 100);
+        &:hover {
+            background: rgb(140, 219, 215);;
+        }
+        &::after {
+            content: " world";
+        }
+        &:active {
+            background: rgb(41, 132, 168);;
+        }
+    }
+}
