@@ -1,8 +1,8 @@
 header {
-    @include flexCenter();
-    background: lightblue;
+    //@include flexCenter(column, rgb(146, 61, 111));
     height: 100vh;
     color: $textColor;
+    background: lightblue;
     button {
         background: rgb(33, 104, 100);
         &:hover {

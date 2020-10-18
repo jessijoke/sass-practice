@@ -1,45 +1,35 @@
+/*@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}*/
 .contact {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background: lightcoral !important;
+  width: 90%;
 }
 
-header {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: lightblue;
+header, .contact {
   height: 100vh;
   color: #3a2a2a;
+  background: lightblue;
 }
 
-header button {
+header button, .contact button {
   background: #216864;
 }
 
-header button:hover {
+header button:hover, .contact button:hover {
   background: #8cdbd7;
 }
 
-header button::after {
+header button::after, .contact button::after {
   content: " world";
 }
 
-header button:active {
+header button:active, .contact button:active {
   background: #2984a8;
 }
 /*# sourceMappingURL=sassy.css.map */
